@@ -1,7 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import Calculator from "./components/Calculator";
+import Todos from "./components/Todos";
 
-export default function App() {
-  return <Calculator />;
+function App() {
+  return (
+    <div>
+      <Todos />
+    </div>
+  );
 }
+
+export default App;
